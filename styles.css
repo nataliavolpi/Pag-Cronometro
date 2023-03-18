@@ -13,6 +13,7 @@ img{
     display: block;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 5%;
     height: 50vh;
 }
 
@@ -20,7 +21,6 @@ span{
     font-size: 60px;
     font-weight: 400;
     width: 100px;
-    text-align: center;
 }
 
 #numeros{
@@ -30,8 +30,8 @@ span{
     background-color: rgb(212, 243, 204);
     border-radius: 12px;
     width: 340px;
-    text-align: center;
     margin-top: 40px;
+    padding-left: 10px;
 }
 
 button{
@@ -58,4 +58,8 @@ button:hover{
 
 button:active{
     opacity: 0.6;
+}
+
+.ativo {
+    opacity: 0.4;
 }
